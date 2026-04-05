@@ -5,7 +5,7 @@ function cleanAds() {
 
     // 2. On récupère les mots depuis le stockage local
     chrome.storage.local.get(['bannedWords'], (res) => {
-        const bannedKeywords = res.bannedWords || ["recherche", "cherche", "échange", "donne", "vends pas", "urgent", "lot"];
+        const bannedKeywords = res.bannedWords || ["recherche", "cherche", "échange", "donne", "vends pas", "urgent", "lot", "Récupération"];
         
         // 3. On cible tous les articles
         const ads = document.querySelectorAll('article');
