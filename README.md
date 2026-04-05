@@ -1,6 +1,7 @@
 #LBC Cleaner
 
 **LBC Cleaner** est une extension Chrome/Edge/Brave conçue pour améliorer l'expérience de recherche sur Leboncoin. Elle permet de filtrer et de masquer les annonces qui contiennent des mots-clés spécifiques (comme "recherche", "échange", "donne") qui polluent souvent les résultats de vente.
+<img width="1920" height="1080" alt="après" src="https://github.com/user-attachments/assets/52025964-de9c-4647-ba64-58d970d630ad" />
 
 ## ✨ Fonctionnalités
 - **Filtrage Intelligent** : Masque les annonces contenant des mots interdits uniquement dans les résultats de recherche.
@@ -32,3 +33,4 @@ Comme l'extension n'est pas encore sur le Web Store, voici comment l'installer m
 
 ## 🤝 Contribution
 Les contributions sont les bienvenues ! Si vous avez une idée d'amélioration ou si vous trouvez un bug, n'hésitez pas à ouvrir une *Issue* ou une *Pull Request*.
+
