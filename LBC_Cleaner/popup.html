@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body { width: 300px; padding: 15px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+    h3 { margin-top: 0; color: #ff6e14; display: flex; align-items: center; justify-content: space-between; }
+    
+    .input-group { display: flex; gap: 5px; margin-bottom: 15px; }
+    input { flex: 1; padding: 8px; border: 1px solid #ccc; border-radius: 4px; outline: none; }
+    input:focus { border-color: #ff6e14; }
+    #addBtn { background: #ff6e14; color: white; border: none; padding: 8px 12px; border-radius: 4px; cursor: pointer; font-weight: bold; }
+    
+    #wordList { list-style: none; padding: 0; margin: 0; max-height: 200px; overflow-y: auto; border-top: 1px solid #eee; }
+    .word-item { display: flex; justify-content: space-between; align-items: center; padding: 8px 5px; border-bottom: 1px solid #eee; font-size: 14px; }
+    .word-item:hover { background: #fff8f4; }
+    .delete-btn { color: #ff4d4d; cursor: pointer; font-weight: bold; padding: 0 8px; font-size: 18px; line-height: 1; }
+    .delete-btn:hover { color: #cc0000; }
+    
+    .empty-msg { text-align: center; color: #999; font-size: 13px; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h3>Filtre LeBonCoin <span>🚫</span></h3>
+  
+  <div class="input-group">
+    <input type="text" id="wordInput" placeholder="Ajouter un mot...">
+    <button id="addBtn">+</button>
+  </div>
+
+  <ul id="wordList"></ul>
+
+  <script src="popup.js"></script>
+</body>
+</html>
